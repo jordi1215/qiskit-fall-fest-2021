@@ -1,3 +1,4 @@
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 # qiskit-fall-fest-2021
 This repository is used for competing in the UT Austin Qiskit Fall fest 2021\
  **Team Members:** Trisha Agrawal, Erika Tan, James Larsen, Jordi Ramos
