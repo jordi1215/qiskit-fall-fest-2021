@@ -3,12 +3,20 @@ This repository is used for competing in the UT Austin Qiskit Fall fest 2021\
  **Team Members:** Trisha Agrawal, James Larsen, Jordi Ramos, Erika Tan
 
 ## Our Project
+Our project aims to teach quantum computing concepts by comparing random number generation in classical and quantum computers! We created a self-explanatory Python notebook with examples of how to generate random numbers and how the quantum circuits would look for different RNG methods. Our RNG methods are divided into separate stages: 
+
+1. Pseudorandom number generation (classical computing)
+2. Simple RNG by exploiting the properties of qubits (quantum computing)
+3. More advanced RNG and verification of the stability of a quantum system through the CHSH game (quantum computing)
+
+By honing into this simple concept, we hope that people will be able to not only learn important concepts such as superposition and qubits, but also apply them to a real world problem!
 
 ## Usage Guide
+Our project is a self-explanatory Python notebook which can be run in Jupyter, Google Colab, etc. Our code cells are supplemented by text explanations and diagrams.
 
 ## Qiskit Implementation
 
-We used the Qiskit package to implement the CHSH game protocol. The CHSH game is an well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using mainly our own code.
+We used the Qiskit package to implement a simple quantum circuit (Stage 1) and the CHSH game protocol (Stage 2). The CHSH game is an well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using mainly our own code.
 
 This is the CHSH game protocol: Alice does nothing to her qubit if x = 0 and she applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{4}"> counterclockwise rotation towards |1⟩ if x = 1. Bob applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{8}"> counterclockwise rotation towards |1⟩ if y = 0 and he applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{8}"> *clockwise* rotation towards |1⟩ if y = 1. Alice and Bob both measure 
 their qubits in the {|0⟩,|1⟩} basis and output whatever they see. 
@@ -50,3 +58,4 @@ This is what the circuit looks like when x = 1 and y = 1 :
 
 
 ## What We Learned
+Some team members had zero quantum computing experience before this hackathon, so we learned a lot about the basic concepts. For the other members, they were already in a QIS class in which they learned about the CHSH game. This project was a way for us to implement this nonlocal game for a practical use. We also learned how to use the Qiskit library.
