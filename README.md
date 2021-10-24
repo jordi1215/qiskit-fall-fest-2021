@@ -1,6 +1,6 @@
 # qiskit-fall-fest-2021
 This repository is used for competing in the UT Austin Qiskit Fall fest 2021\
- **Team Members:** Trisha Agrawal, Erika Tan, James Larsen, Jordi Ramos
+ **Team Members:** Trisha Agrawal, James Larsen, Jordi Ramos, Erika Tan
 
 ## Our Project
 
