@@ -44,8 +44,8 @@ def make_chsh(x, y):
     
     return qc
 ```
-This is what the circuit looks like when $$x=1$$ and $$y=1$$:
-
+This is what the circuit looks like when $$ x=1 $$ and $$ y=1 $$:
+  * The authors also demonstrate that the SGDR is prime candidate for training an ensemble of neural networks, where each network is initially trained using the output at the $$ M^{th} $$ restart. This allowed them to further improve accuracy on CIFAR-10 and CIFAR-100 datasets.
 ![](pictures/CHSH.png)
 
 
