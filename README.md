@@ -1,4 +1,3 @@
-<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 # qiskit-fall-fest-2021
 This repository is used for competing in the UT Austin Qiskit Fall fest 2021\
  **Team Members:** Trisha Agrawal, Erika Tan, James Larsen, Jordi Ramos
@@ -11,10 +10,10 @@ This repository is used for competing in the UT Austin Qiskit Fall fest 2021\
 
 We used the Qiskit package to implement the CHSH game protocol. The CHSH game is an well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using mainly our own code.
 
-This is the CHSH game protocol: Alice does nothing to her qubit if $x=0$ and she applies a $\frac{\pi}{4}$ counterclockwise rotation towards $|1\rangle$ if $x=1$. Bob applies a $\frac{\pi}{8}$ counterclockwise rotation towards $|1\rangle$ if $y=0$ and he applies a $\frac{\pi}{8}$ *clockwise* rotation towards $|1\rangle$ if $y=1$. Alice and Bob both measure 
-their qubits in the $\{|0\rangle,|1\rangle \}$ basis and output whatever they see. 
-This strategy wins $\cos^2\left(\frac{\pi}{8}\right) \approx 85\%$ of the time, 
-while any classical strategy can win with probability of at most $\frac{3}{4}$
+This is the CHSH game protocol: Alice does nothing to her qubit if $$x=0$$ and she applies a $$\frac{\pi}{4}$$ counterclockwise rotation towards $$|1\rangle$$ if $x=1$. Bob applies a $$\frac{\pi}{8}$$ counterclockwise rotation towards $$|1\rangle$$ if $$y=0$$ and he applies a $$\frac{\pi}{8}$$ *clockwise* rotation towards $$|1\rangle$$ if $$y=1$$. Alice and Bob both measure 
+their qubits in the $$\{|0\rangle,|1\rangle \}$$ basis and output whatever they see. 
+This strategy wins $$\cos^2\left(\frac{\pi}{8}\right) \approx 85\%$$ of the time, 
+while any classical strategy can win with probability of at most $$\frac{3}{4}$$
 
 After carefully verifying the algorithm by hand, we decided to implement a function where apply apply a Hadamard gate and a CNOT gate to two qubits so that they are entangled, and we will perform a rotation gate on either of the two qubits based on the inputs.
 
@@ -45,7 +44,7 @@ def make_chsh(x, y):
     
     return qc
 ```
-This is what the circuit looks like when $x=1$ and $y=1$:
+This is what the circuit looks like when $$x=1$$ and $$y=1$$:
 
 ![](pictures/CHSH.png)
 
