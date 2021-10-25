@@ -19,7 +19,7 @@ Our project is a self-explanatory Python notebook which can be run in Jupyter, G
 
 ## Qiskit Implementation
 
-We used the Qiskit package to implement a simple quantum circuit (Stage 1) and the CHSH game protocol (Stage 2). The CHSH game is an well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using mainly our own code.
+We used the Qiskit package to implement a simple quantum circuit (Stage 1) and the CHSH game protocol (Stage 2). The CHSH game is a well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using our own code.
 
 This is the CHSH game protocol: Alice does nothing to her qubit if x = 0 and she applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{4}"> counterclockwise rotation towards |1⟩ if x = 1. Bob applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{8}"> counterclockwise rotation towards |1⟩ if y = 0 and he applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{8}"> *clockwise* rotation towards |1⟩ if y = 1. Alice and Bob both measure 
 their qubits in the {|0⟩,|1⟩} basis and output whatever they see. 
