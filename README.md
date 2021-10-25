@@ -19,7 +19,7 @@ Our project is a self-explanatory Python notebook which can be run in Jupyter, G
 
 ## Qiskit Implementation
 
-We used the Qiskit package to implement a simple quantum circuit (Stage 1) and the CHSH game protocol (Stage 2). The CHSH game is an well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using mainly our own code.
+We used the Qiskit package to implement a simple quantum circuit (Stage 1) and the CHSH game protocol (Stage 2). The CHSH game is a well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using our own code.
 
 ### Stage 1
 
