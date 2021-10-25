@@ -68,6 +68,7 @@ def make_chsh(x, y):
     qc.cx(0, 1)
     
     # apply conditional rotations
+    # need to multiply the angle of rotation by 2 since Qiskit divides the angle by 2 when applying the rotation
     if x == 1:
         qc.ry(np.pi/2, 0)
     if y == 0:
