@@ -12,7 +12,7 @@ Our project aims to teach quantum computing concepts by comparing random number 
 By honing into this simple concept, we hope that people will be able to not only learn important concepts such as superposition and qubits, but also apply them to a real world problem!
 
 ## Usage Guide
-Our project is a self-explanatory Python notebook which can be run in Jupyter, Google Colab, etc. Our code cells are supplemented by text explanations and diagrams.
+Our project is a self-explanatory Python notebook which can be run in Jupyter, Google Colab, etc. Our code cells are supplemented by text explanations and diagrams. Please refer to [`fall_fest.ipynb`](fall_fest.ipynb)
 
 ## Qiskit Implementation
 
