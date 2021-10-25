@@ -25,6 +25,21 @@ We used the Qiskit package to implement a simple quantum circuit (Stage 1) and t
 
 For stage 1, we used the Qiskit tool to implement a simple circuit: we started with a qubit int the |0⟩ state, applied a Hadamard gate to it, and measured it. We used this circuit to create a very simple random number generator.
 
+This is the code:
+
+```
+def stage_one_circuit():
+    """Create quantum circuit for random number generation"""
+    qc = QuantumCircuit(1,1)
+    qc.h(0)
+    qc.measure(0,0)
+    return qc
+```
+
+And this is the circuit:
+
+![](pictures/hadamard.png)
+
 ### Stage 2
 
 For stage 2, we implemented a more complicated circuit using the Qiskit tool to simulate the CHSH game.
