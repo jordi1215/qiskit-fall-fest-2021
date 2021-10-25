@@ -3,7 +3,7 @@ This repository is used for competing in the UT Austin Qiskit Fall fest 2021
 
  **Team Members:** Trisha Agrawal, James Larsen, Jordi Ramos, Erika Tan
 
- **Video link** [link](https://youtu.be/eWU_rTxj72w)
+ **Video link:**  https://youtu.be/eWU_rTxj72w
 
 ## Our Project
 Our project aims to teach quantum computing concepts by comparing random number generation in classical and quantum computers! We created a self-explanatory Python notebook with examples of how to generate random numbers and how the quantum circuits would look for different RNG methods. Our RNG methods are divided into separate stages: 
