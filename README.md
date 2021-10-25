@@ -6,7 +6,7 @@ This repository is used for competing in the UT Austin Qiskit Fall fest 2021
  **Video link:**  https://youtu.be/eWU_rTxj72w
 
 ## Our Project
-Our project aims to teach quantum computing concepts by comparing random number generation in classical and quantum computers! We created a self-explanatory Python notebook with examples of how to generate random numbers and how the quantum circuits would look for different RNG methods. Our RNG methods are divided into separate stages: 
+Our project aims to teach quantum computing concepts by comparing random number generation in classical and quantum computers! We created a self-explanatory Python notebook with examples of how to generate random numbers and how the quantum circuits would look for different random number generation (RNG) methods. Our RNG methods are divided into separate stages: 
 
 1. Pseudorandom number generation (classical computing)
 2. Simple RNG by exploiting the properties of qubits (quantum computing)
@@ -20,6 +20,14 @@ Our project is a self-explanatory Python notebook which can be run in Jupyter, G
 ## Qiskit Implementation
 
 We used the Qiskit package to implement a simple quantum circuit (Stage 1) and the CHSH game protocol (Stage 2). The CHSH game is an well-known non-local game in quantum information. The Qiskit textbook has some information on it but we still had to implement the game using mainly our own code.
+
+### Stage 1
+
+For stage 1, we used the Qiskit tool to implement a simple circuit: we started with a qubit int the |0⟩ state, applied a Hadamard gate to it, and measured it. We used this circuit to create a very simple random number generator.
+
+### Stage 2
+
+For stage 2, we implemented a more complicated circuit using the Qiskit tool to simulate the CHSH game.
 
 This is the CHSH game protocol: Alice does nothing to her qubit if x = 0 and she applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{4}"> counterclockwise rotation towards |1⟩ if x = 1. Bob applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{8}"> counterclockwise rotation towards |1⟩ if y = 0 and he applies a <img src="https://render.githubusercontent.com/render/math?math=\frac{\pi}{8}"> *clockwise* rotation towards |1⟩ if y = 1. Alice and Bob both measure 
 their qubits in the {|0⟩,|1⟩} basis and output whatever they see. 
