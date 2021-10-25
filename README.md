@@ -58,4 +58,4 @@ This is what the circuit looks like when x = 1 and y = 1 :
 
 
 ## What We Learned
-Some team members had zero quantum computing experience before this hackathon, so we learned a lot about the basic concepts. For the other members, they were already in a QIS class in which they learned about the CHSH game. This project was a way for us to implement this nonlocal game for a practical use. We also learned how to use the Qiskit library.
+Some team members had zero quantum computing experience before this hackathon, so we learned a lot about the basic concepts. One team member is currently in the intro QIS class in which he learned about the CHSH game. This project was a way for us to implement this nonlocal game for a practical use. We also learned how to use the Qiskit library.
