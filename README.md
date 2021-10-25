@@ -60,4 +60,4 @@ This is what the circuit looks like when x = 1 and y = 1 :
 ## What We Learned
 Some team members had zero quantum computing experience before this hackathon, so we learned a lot about the basic concepts. One team member is currently in the intro QIS class in which he learned about the CHSH game. This project was a way for us to implement this nonlocal game for a practical use. We also learned how to use the Qiskit library.
 
-Two of the most important quantum information concepts are superposition and entanglement. We were able to learn those concepts and apply it in our project. We learned that quantum information theory can be understood by us and be applied to our everyday life. We are all glad that we were part of this hackathon and we all plan to be further involved with quantum computing.
+Two of the most important quantum information concepts are superposition and entanglement. We were able to learn those concepts and apply it in our project. We learned that quantum information theory can be understood by us and be applied to our everyday life. We are glad that we were part of this hackathon and we all plan to be further involved with quantum computing.
